@@ -4,6 +4,10 @@ description: "Quick reference for MDX file"
 date: 4 May 2023
 ---
 
+# Summary
+
+** bold ** __ italic __ >>indent ```code #heading -list ---horizontal line [link](/)
+
 React components can be added within mdx.
 
 # h1 Heading
@@ -22,47 +26,33 @@ React components can be added within mdx.
 
 ---
 
-
 ## Emphasis
 
-**This is bold text**
+`**` **Bold**
 
-**This is bold text**
+`__` _Italic_
 
-_This is italic text_
-
-_This is italic text_
-
-~~Strikethrough~~
+`~~` ~~Strikethrough~~
 
 ## Blockquotes
 
 > Blockquotes can also be nested...
 >
-> > ...by using additional greater-than signs right next to each other...
+> > by using additional greater-than signs right next to each other...
 > >
-> > > ...or with spaces between arrows.
+> > > or with spaces between arrows.
 
 ## Lists
 
 Unordered
 
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
+- `+`, `-`, `*` to create lists.
+  - Indenting 2 spaces to create sub-lists:
 
 Ordered
 
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
+1. You can use sequential numbers...
+2. ...or keep all the numbers as `1.`
 
 Start numbering with offset:
 
@@ -80,13 +70,11 @@ Indented code
     line 2 of code
     line 3 of code
 
-Block code "fences"
-
 ```
-Sample text here...
+Code block created with ```
 ```
 
-Syntax highlighting
+Syntax highlighted with ```js
 
 ```js
 var foo = function (bar) {
