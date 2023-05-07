@@ -8,6 +8,15 @@ exports.COLOR_THEMES = {
       'gradient-4': '#8785FF',
     },
   },
+  custom: {
+    colors: {
+      primary: '#7D7AFF',
+      'gradient-1': '#5958a8',
+      'gradient-2': '#2121e2',
+      'gradient-3': '#603382',
+      'gradient-4': '#8785FF',
+    },
+  },
   bejamas: {
     colors: {
       primary: '#FF8585',
